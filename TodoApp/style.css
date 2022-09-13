@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: blue; */
+}
+body{
+    display: flex;   
+}
+#left-panel{
+    height: 900px;
+    background-color: lavender;
+}
+.task{
+    display: flex;
+    justify-content: space-between;
+}
+.task-name{
+    min-width: auto;
+}
+
+#input-field{
+    width: 500px;
+    /* height: 300px; */
+    font-size: xx-large;
+    border-style: none;
+    outline: none;
+}
+
+#input-btn{
+    width: 50px;
+    height: 30px;
+}
+
+
+/* warning class, to be added on input field in case of wrong input */
+.warning{
+    background-color: red;
+}
+
+.task-icon{
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+} 
+
+.delete-btn{
+    margin-right: 2px;
+    background-color: lavender;
+    border: none;
+}
+
+/* toggle classes */
+.task-done{
+    text-decoration: line-through;
+} 
+.click-style{
+   background-color: grey;
+}
